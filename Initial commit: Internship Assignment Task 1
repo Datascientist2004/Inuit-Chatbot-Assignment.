@@ -1,0 +1,33 @@
+# Inuit Luxury Footwear - AI Chatbot Design Assignment
+
+This repository contains the solution for the Analyst Intern assignment. The project focuses on designing a premium conversational AI experience for **Inuit**, a luxury footwear brand, to improve user engagement and reduce bounce rates.
+
+---
+
+## 🚀 Task 1: Chatbot Conversation Flow
+
+### 🎨 Design Philosophy
+*   **Personality:** The Digital Concierge.
+*   **Tone:** Sophisticated, minimalist, and welcoming.
+*   **Objective:** To guide high-intent users from exploration to home delivery through a seamless, premium interface.
+
+### 🗺️ Visual Flowchart
+GitHub renders this flowchart automatically to show the bot's logic:
+
+```mermaid
+graph TD
+    A[Start: User Lands on Site] --> B{Onboarding}
+    B --> C[Welcome Message + Brand Story]
+    C --> D[Quick Replies: Explore vs. Craftsmanship]
+    
+    D -->|Explore| E[Category Selection: Formal/Leisure/Boots]
+    E --> F[Size & Color Selection]
+    F --> G[Product Showcase: Carousel]
+    G --> H[Call to Action: Home Delivery]
+    
+    D -->|Craftsmanship| I[Video Carousel: The Making Of]
+    I --> G
+    
+    H --> J[Conclusion: Bespoke Confirmation]
+    
+    K[Fallback: Unknown Input] --> L[Suggest Menu / Human Agent]
